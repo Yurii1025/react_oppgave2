@@ -1,0 +1,85 @@
+.users_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(149, 255, 141, 0.554);
+    border: 1px solid #1eff00;
+    border-radius: 20px;
+}
+.user_header{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.users_form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.input_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+.input_el {
+    height: 25px;
+    background-color: #f8ff97;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    padding-left: 8px;
+    color: #000000;
+}
+::placeholder {
+    color: #d94190;
+    font-weight: 600;
+}
+.add_user {
+    background-color: rgb(17, 255, 0);
+    padding: 5px 20px;
+    border-radius: 3px;
+    color: #000;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+}
+.add_user:hover {
+    /* border: 0px solid #fff; */
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: #fff;
+    background-color: rgb(229, 255, 0);
+    color: #930000;
+    font-weight: 700;
+}
+.usr_lst_title {
+    font-size: 24px;
+    color: #005592;
+    margin-bottom: 20px;
+}
+.users_list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+li {
+    list-style: bullet;
+}
+li::marker {
+    color: #9b0077;
+    font-weight: 700;
+}
+.usrname {
+    color: #0009b1;
+    font-style: italic;
+    font-size: 20px;
+}
+.usrmail {
+    display: block;
+    padding-top: 10px;
+    color: #6e6e6e;
+    font-weight: 600;
+}
