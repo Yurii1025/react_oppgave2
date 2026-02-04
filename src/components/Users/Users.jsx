@@ -14,18 +14,15 @@ const Users = () =>  {
                 ));
     //Adding a new object
     function addUser(formData) {
-        // const newUser = {
-        //     username: formData.get("user"),
-        //     email: formData.get("email"),
-        // };
+        //We get information from input fields
         const username = formData.get("user");
         const email = formData.get("email");
-        //if something empty => quit
+        //If something empty => quit
         if (!username || !email) {
-        //if (!username.trim() || !email.trim())
             alert("Please fill in all fields 🙂");
             return ;
         }
+        //If the fields are filled, we create a new object
         const newUser = {
             username,
             email,

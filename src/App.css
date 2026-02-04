@@ -2,6 +2,7 @@
   height: 100vh;
   margin: 0 auto;
   text-align: center;
+  padding-bottom: 50px;
 }
 /*RESET*/
 *,
@@ -33,4 +34,7 @@ html, body {
 button, input {
     cursor: pointer;
     background-color: inherit;
+}
+.app {
+	padding-bottom: 50px;
 }

@@ -7,11 +7,12 @@ function App() {
   
 
   return (
-    <>
+
+    <div className="app">
       <CookieClicker />
       <CatFacts />
       <Users />
-    </>
+    </div>
   )
 }
 
