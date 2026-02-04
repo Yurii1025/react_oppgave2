@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styles from './CookieClicker.module.css';
-import Cookie from '../../../public/cookie.png'
+import Cookie from '/cookie.png'
 
 const CookieClicker = () => {
     const [count, setCount] = useState(0)
