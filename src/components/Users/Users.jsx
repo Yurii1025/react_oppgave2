@@ -18,7 +18,7 @@ const Users = () =>  {
         const username = formData.get("user");
         const email = formData.get("email");
         //If something empty => quit
-        if (!username || !email) {
+        if (!username.trim() || !email.trim()) {
             alert("Please fill in all fields 🙂");
             return ;
         }
